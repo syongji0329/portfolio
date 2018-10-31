@@ -1,0 +1,272 @@
+/* CSS RESET */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, h8, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { 
+	margin:0; 
+	padding:0; 
+	border:0; 
+	outline:0; 
+	font-size:100%; 
+	vertical-align:baseline; 
+	background:transparent;
+}
+body {
+	line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+li{
+	list-style:none;
+}
+a {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	vertical-align: baseline; 
+	background: transparent; 
+	text-decoration: none;
+	display:block;
+}
+/* font-family */
+* { font-family: 'Noto Sans', sans-serif; }
+
+/*main*/
+body{
+	background-color:#fff;
+	width:100%;
+	overflow-x: hidden;
+}
+div.mainbg{
+	background-color:#f1f1f1;
+}
+div.subbg0{
+	overflow-x: hidden;/*
+	max-width: 1920px;
+	min-width: 1350px;*/
+}
+section.main{
+	background:url(./img/background.png);
+	height:30%;
+	width:100%;
+}
+section.main img.hammenu{
+	display:block;
+	float:right;
+	padding:30px 30px 0 0;
+	cursor:pointer;
+}
+section.main img:nth-child(2){
+	display:block;
+	margin:0 auto;
+	padding:15% 0;
+}
+section.main h4{
+	color:#fff;
+	text-align:center;
+	padding-bottom:5%;
+}
+section.content{
+	width:1100px;
+	margin:0 auto;
+}
+section.content:after{
+	content: "";
+    display: block;
+    clear: both;
+}
+section.content ul{
+	padding-top:70px;
+}
+section.content ul li{
+	/*width:348px;	
+	margin-right:28px;*/
+	float:left;
+	margin-bottom:30px;
+	width: 31.7%;
+	margin-right: 2%;
+}
+section.content ul li:nth-child(3n){
+	margin-right:0;
+}
+section.content ul li a img{
+	/*width:348px;
+	height:256px;*/
+	width:100%;
+	background-color:#000;
+	display:block;
+}
+section.content ul li a div{
+	padding:30px;
+	background-color:#fff;
+	height:44px;
+}
+section.content ul li a div p{
+	font-size:22px;
+	color:#000;
+	font-weight:600;
+	margin-bottom: 5px;
+}
+section.content ul li a div span{
+	font-size:18px;
+	color:#999;
+}
+section.menu{
+	position: fixed;
+	right:0;
+	top:0;
+	width:40%;
+	height:100%;
+	display:none;
+}
+section.menu div:first-child{
+	position: fixed;
+	right:0;
+	top:0;
+	width:40%;
+	height:100%;
+	background-color:#4b4b4b;
+	z-index:9;
+}
+section.menu div:first-child > img{
+    /*padding: 30px 30px 0 0;
+    cursor: pointer;
+	float:right;*/
+	right: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+}
+section.menu div ul{
+	width:270px;
+	margin:0 auto;
+	margin-top:300px;
+}
+section.menu div ul li{
+	margin-bottom: 60px;
+}
+section.menu div ul li span{
+	margin-right: 30px;
+	display: inline-block;
+}
+section.menu div.bg{
+	background: #000;
+    opacity: 0.5;
+    z-index: 1;
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*sub page*/
+div.wid100{
+	width: 100%;
+    position: relative;
+    height: 490px;
+}
+div.sub0{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom: 100px;
+}
+div.subab{
+	background-color: #fff;
+    width: 1200px;
+    height: 200px;
+    position: relative;
+	margin: -150px auto 0;
+}
+div.subab img{
+	position: absolute;
+    top: 0;
+}
+div.subab div{
+	padding: 50px 40px;
+    font-size: 30px;
+}
+div.subab div h1{
+	font-size: 42px;
+    margin-bottom: 10px;
+}
+div.sub > img{
+	margin:0 auto;
+	display:block;
+	margin-top: 100px;
+}
+div.sub > img:last-child{
+	padding-bottom:100px;
+}
+center.bottombtn{
+    display:block;
+	margin:50px 0;
+}
+center.bottombtn a{
+	font-size: 28px;
+    width: 260px;
+    border: 1px solid #333;
+    text-align: center;
+    color: #333;
+    padding: 30px 0;
+    display: inline-block;
+    vertical-align: middle;
+	margin: 0 10px;
+}
+div.subbg{
+	width: 100%;
+	min-width: 760px;
+    height: 490px;
+    position: absolute;
+    top: 0;
+}
+a.btn2{
+    background: skyblue;
+    color: #fff;
+    width: 200px;
+    height: 80px;
+    font-size: 17px;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+.subbg0 .wid100 a{
+	position: relative;
+	padding:30px;
+}
+
+
+div.chacha{background:url(./img/img_bg_chacha.jpg) 40% 50%;}
+div.combikeday{background:url(./img/img_bg_comebikeday.jpg) no-repeat;}
+div.coop{background:url(./img/img_bg_coop.jpg) 80% 50%;}
+div.earlybird{background:url(./img/img_bg_earlybird.jpg) 50% 30%;}
+div.fall{background:url(./img/img_bg_fall.jpg) no-repeat;}
+div.happyendding{background:url(./img/img_bg_happyendding.jpg) 50% 50%;}
+div.hongkong{background:url(./img/img_bg_hongkong.jpg) 50% 0%;}
+div.husazomo{background:url(./img/img_bg_husazomo.jpg) 50% 30%;}
+div.macao{background:url(./img/img_bg_macao.jpg) 50% 30%;}
+div.matsuyama{background:url(./img/img_bg_matsuyama.jpg) no-repeat;}
+div.osakapass{background:url(./img/img_bg_osakapass.jpg) 10% 20%;}
+div.pass{background:url(./img/img_bg_pass.jpg) no-repeat;}
+div.sale{background:url(./img/img_bg_sale.jpg) 50% 50%; background-size: 90%;}
+div.ship{background:url(./img/img_bg_ship.jpg) 0 -320px;}
+div.singapore{background:url(./img/img_bg_singapore.jpg) 0 -145px}
+div.springjapan{background:url(./img/img_bg_springjapan.jpg) no-repeat;}
+div.summerokinawa{background:url(./img/img_bg_summerokinawa.jpg) 0 -180px;}
+div.taiwan{background:url(./img/img_bg_taiwan.jpg) no-repeat;}
+div.tsushima{background:url(./img/img_bg_tsushima.jpg) no-repeat;}
+div.shoppingtong{background:url(./img/img_bg_shoppingtong.jpg) 50% 30%;}
+div.palace{background:url(./img/img_bg_palace.jpg) 0 50%;}
+div.cartour{background:url(./img/img_bg_cartour.jpg) 50% 50%;}

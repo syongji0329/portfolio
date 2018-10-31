@@ -1,0 +1,64 @@
+/* 반응형 */
+@media screen and (min-width:512px) and (max-width:1024px) {
+	section.content,
+	div.sub{
+		width:94%;
+		padding:0 3%;
+	}
+	div.subab{
+		width:94%;
+	}
+	div.sub img:last-child{
+		width: 100% !important;
+	}
+	section.menu div ul{
+		margin-top: 10%;
+	}
+	section.content ul li{
+		width: 48%;
+		margin-right: 2%;
+	}
+	section.content ul li:nth-child(3n) {
+		margin-right:2%;
+	}
+	section.menu{
+		padding-top: 0.5%;
+		position: relative;
+		width: 100%;
+		height: 10%;
+	}
+	section.menu div:first-child {
+		position:relative;
+		padding-top: 5%;
+		width: 100%;
+		height: 100%;
+		background-color: #4b4b4b;
+		z-index: 9;
+	}
+	div.sub ul li img{
+		display:none;
+	}
+}
+@media screen and (max-width:512px){
+	section.content,
+	div.sub{
+		width:94%;
+		padding:0 3%;
+	}
+	div.subab{
+		width:94%;
+	}
+	div.sub img:last-child{
+		width: 100% !important;
+	}
+	section.content ul li{
+		width: 100%;
+		margin-right: 0%;
+	}
+	section.content ul li:nth-child(3n) {
+		margin-right:0%;
+	}
+	div.sub ul li img{
+		display:none;
+	}
+}
