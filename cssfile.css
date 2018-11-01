@@ -8,7 +8,7 @@
 	div.subab{
 		width:94%;
 	}
-	div.sub img:last-child{
+	div.sub > img.images{
 		width: 100% !important;
 	}
 	section.menu div ul{
@@ -48,7 +48,7 @@
 	div.subab{
 		width:94%;
 	}
-	div.sub img:last-child{
+	div.sub > img.images{
 		width: 100% !important;
 	}
 	section.content ul li{
