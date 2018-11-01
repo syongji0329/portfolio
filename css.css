@@ -50,6 +50,9 @@ body{
 div.mainbg{
 	background-color:#f1f1f1;
 }
+div.sub{
+	text-align: center;
+}
 div.subbg0{
 	overflow-x: hidden;/*
 	max-width: 1920px;
