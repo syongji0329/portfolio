@@ -247,17 +247,20 @@ a.btn2{
 	padding:30px;
 }
 
-
+div.min{background:url(./img/img_bg_1minute.jpg) 40% 50%;}
 div.chacha{background:url(./img/img_bg_chacha.jpg) 40% 50%;}
 div.combikeday{background:url(./img/img_bg_comebikeday.jpg) no-repeat;}
 div.coop{background:url(./img/img_bg_coop.jpg) 80% 50%;}
+div.cooppay{background:url(./img/img_bg_cooppay.jpg) 80% 50%;}
 div.earlybird{background:url(./img/img_bg_earlybird.jpg) 50% 30%;}
 div.fall{background:url(./img/img_bg_fall.jpg) no-repeat;}
 div.happyendding{background:url(./img/img_bg_happyendding.jpg) 50% 50%;}
 div.hongkong{background:url(./img/img_bg_hongkong.jpg) 50% 0%;}
 div.husazomo{background:url(./img/img_bg_husazomo.jpg) 50% 30%;}
+div.husa{background:url(./img/img_bg_husa.jpg) 50% 30%;}
 div.macao{background:url(./img/img_bg_macao.jpg) 50% 30%;}
 div.matsuyama{background:url(./img/img_bg_matsuyama.jpg) no-repeat;}
+div.mangotalk{background:url(./img/img_bg_mangotalk.jpg) no-repeat;}
 div.osakapass{background:url(./img/img_bg_osakapass.jpg) 10% 20%;}
 div.pass{background:url(./img/img_bg_pass.jpg) no-repeat;}
 div.sale{background:url(./img/img_bg_sale.jpg) 50% 50%; background-size: 90%;}
