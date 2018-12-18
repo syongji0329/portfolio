@@ -64,10 +64,10 @@ section.main{
 	width:100%;
 }
 section.main img.hammenu{
-	display:block;
-	float:right;
-	padding:30px 30px 0 0;
-	cursor:pointer;
+	position: absolute;
+	z-index: 1;
+	top:30px;
+	right: 30px;
 }
 section.main img:nth-child(2){
 	display:block;
@@ -131,6 +131,7 @@ section.menu{
 	width:40%;
 	height:100%;
 	display:none;
+	z-index: 9;
 }
 section.menu div:first-child{
 	position: fixed;
