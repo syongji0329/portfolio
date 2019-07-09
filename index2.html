@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="shortcut icon" href="./images/favicon.png">
+</head>
+<style>
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  #particles-js{
+    background: #3a4256;
+  }
+  .particles-js-canvas-el{
+    opacity: 0.3;
+  }
+  .btn{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    width: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, transparent, transparent 50%, #fff 50%, #fff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all 0.25s ease-in
+  }
+  .btn:hover{
+    background-position: 0 0;
+    color:#3a4256;
+  }
+  
+</style>
+<body>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<div class="center">
+    <img src="img/main_text.png">
+    <a href="list.html" class="btn">view</a>
+  </div>
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
