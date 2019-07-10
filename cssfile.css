@@ -38,6 +38,12 @@
 	div.sub ul li img{
 		display:none;
 	}
+	.center{
+		width:70%;
+	}
+	.center img{
+		width:100%;
+	}
 }
 @media screen and (max-width:512px){
 	section.content,
@@ -60,5 +66,11 @@
 	}
 	div.sub ul li img{
 		display:none;
+	}
+	.center{
+		width:70%;
+	}
+	.center img{
+		width:100%;
 	}
 }
